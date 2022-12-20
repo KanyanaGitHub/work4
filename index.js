@@ -29,6 +29,7 @@ app.get('/04.png',(req,res) =>{
     res.sendFile(__dirname+"/work3/04.png")
 })
 
+app.use(express.static(__dirname+"/work3"))
 
 app.get('*',(req,res) =>{
     res.sendFile(__dirname+"/404NF.png")
