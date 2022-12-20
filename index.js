@@ -11,6 +11,9 @@ app.get('/animated.css',(req,res) =>{
     res.sendFile(dirname+"/work3/animated.css")
 })
 
+app.get('*',(req,res) =>{
+    res.sendFile(__dirname+"/404NF.png")
+})
 
 app.listen(3000,()=> {
     console.log('start sever port[3000]')
