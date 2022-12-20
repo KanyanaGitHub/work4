@@ -1,0 +1,12 @@
+h1 {
+    color:rgb(104, 87, 233);  
+    font-size: 100;
+    font-family:Monospace;
+}
+ 
+body {
+    color:rgb(109, 90, 235);
+    background-image: linear-gradient(to left, #2a2241, #4901ae);
+    position:static;
+    font-size: 60px;  
+}
